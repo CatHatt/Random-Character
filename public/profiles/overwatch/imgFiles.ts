@@ -1,4 +1,7 @@
 /// <reference types="../imgFiles.d.ts" />
+
+import { character } from '../../profiles'
+
 import Ana from './images/Ana.png'
 import Ashe from './images/Ashe.png'
 import Baptiste from './images/Baptiste.png'
@@ -40,3 +43,47 @@ import Winston from './images/Winston.png'
 import Wreckingball from './images/Wreckingball.png'
 import Zarya from './images/Zarya.png'
 import Zenyatta from './images/Zenyatta.png'
+
+export default [
+    { name: 'Ana', img: Ana },
+    { name: 'Ashe', img: Ashe },
+    { name: 'Baptiste', img: Baptiste },
+    { name: 'Bastion', img: Bastion },
+    { name: 'Brigitte', img: Brigitte },
+    { name: 'Cassidy', img: Cassidy },
+    { name: 'Dva', img: Dva },
+    { name: 'Doomfist', img: Doomfist },
+    { name: 'Echo', img: Echo },
+    { name: 'Genji', img: Genji },
+    { name: 'Hanzo', img: Hanzo },
+    { name: 'Illari', img: Illari },
+    { name: 'Junkerqueen', img: Junkerqueen },
+    { name: 'Junkrat', img: Junkrat },
+    { name: 'Juno', img: Juno },
+    { name: 'Kiriko', img: Kiriko },
+    { name: 'Lifeweaver', img: Lifeweaver },
+    { name: 'Lúcio', img: Lúcio },
+    { name: 'Mauga', img: Mauga },
+    { name: 'Mei', img: Mei },
+    { name: 'Mercy', img: Mercy },
+    { name: 'Moira', img: Moira },
+    { name: 'Orisa', img: Orisa },
+    { name: 'Pharah', img: Pharah },
+    { name: 'Ramattra', img: Ramattra },
+    { name: 'Reaper', img: Reaper },
+    { name: 'Reinhardt', img: Reinhardt },
+    { name: 'Roadhog', img: Roadhog },
+    { name: 'Sigma', img: Sigma },
+    { name: 'Sojourn', img: Sojourn },
+    { name: 'Soldier76', img: Soldier76 },
+    { name: 'Sombra', img: Sombra },
+    { name: 'Symmetra', img: Symmetra },
+    { name: 'Torbjörn', img: Torbjörn },
+    { name: 'Tracer', img: Tracer },
+    { name: 'Venture', img: Venture },
+    { name: 'Widowmaker', img: Widowmaker },
+    { name: 'Winston', img: Winston },
+    { name: 'Wrecking ball', img: Wreckingball },
+    { name: 'Zarya', img: Zarya },
+    { name: 'Zenyatta', img: Zenyatta },
+] satisfies character[]
