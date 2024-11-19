@@ -1,15 +1,20 @@
+export type character = { name: string; img: number }
+
 type Profile = {
     name: string
-    path: `/public/${string}/imgFiles.ts`
+    imgFiles: character[]
 }
+
+import valorant from './profiles/valorant/imgFiles'
+import overwatch from './profiles/overwatch/imgFiles'
 
 export default [
     {
         name: 'Valorant',
-        path: '/public/valorant/imgFiles.ts',
+        imgFiles: valorant,
     },
     {
         name: 'Overwatch',
-        path: '/public/overwatch/imgFiles.ts',
+        imgFiles: overwatch,
     },
 ] satisfies Profile[]
