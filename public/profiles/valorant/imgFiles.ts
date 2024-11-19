@@ -1,4 +1,7 @@
 /// <reference types="../imgFiles.d.ts" />
+
+import { character } from '../../profiles'
+
 import Astra from './images/Astra.png'
 import Breach from './images/Breach.png'
 import Brimstone from './images/Brimstone.png'
@@ -51,4 +54,4 @@ export default [
     { name: 'Viper', img: Viper },
     { name: 'Vyse', img: Vyse },
     { name: 'Yoru', img: Yoru },
-]
+] satisfies character[]
